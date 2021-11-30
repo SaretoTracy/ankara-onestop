@@ -88,3 +88,59 @@
     font-size: 15px;
     padding-bottom: 50px;
 }
+
+.collections {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 35px;
+    font-style: italic;
+    color: #A9290F;
+}
+
+.grid {
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.gallery {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.pic {
+    width: 25%;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.categories {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 35px;
+    font-style: italic;
+    color: #A9290F;
+}
