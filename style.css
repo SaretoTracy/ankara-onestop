@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/bcg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.navbar ul li a {
+    margin: 0 20px;
+    display: flex;
+    list-style: none;
+    border: 1px solid;
+    border-radius: 30px;
+    background-color: #A9290F;
+    color: aliceblue;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.navbar ul :hover {
+    background: white;
+    color: #A9290F;
+}
+
+.content {
+    width: 550px;
+    margin-top: 180px;
+    box-sizing: border-box;
+    margin-right: 50px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 60%);
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: left;
+    position: left;
+}
+
+.content h1 {
+    color: #A9290F;
+}
+
+.cover {
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 150px;
+}
+
+.about {
+    margin-top: 50px;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100px;
+    color: rgb(184, 2, 2);
+    letter-spacing: 1px;
+}
+
+.article p {
+    margin-top: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+
+.collections {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 35px;
+    font-style: italic;
+    color: #A9290F;
+}
+
+.grid {
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.gallery {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.pic {
+    width: 25%;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.categories {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 35px;
+    font-style: italic;
+    color: #A9290F;
+}
+
+.imgbox {
+    margin: 0 35%;
+    width: 20%;
+    padding: 20px 0
+}
+
+.material {
+    background-color: rgba(100, 148, 237, 0.089);
+    padding-bottom: 10px;
+}
+
+.material p {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.material p em {
+    color: rgb(187, 8, 8);
+}
