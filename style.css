@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/bcg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.navbar ul li a {
+    margin: 0 20px;
+    display: flex;
+    list-style: none;
+    border: 1px solid;
+    border-radius: 30px;
+    background-color: #A9290F;
+    color: aliceblue;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.navbar ul :hover {
+    background: white;
+    color: #A9290F;
+}
