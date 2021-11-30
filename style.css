@@ -43,3 +43,48 @@
     background: white;
     color: #A9290F;
 }
+
+.content {
+    width: 550px;
+    margin-top: 180px;
+    box-sizing: border-box;
+    margin-right: 50px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 60%);
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: left;
+    position: left;
+}
+
+.content h1 {
+    color: #A9290F;
+}
+
+.cover {
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 150px;
+}
+
+.about {
+    margin-top: 50px;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100px;
+    color: rgb(184, 2, 2);
+    letter-spacing: 1px;
+}
+
+.article p {
+    margin-top: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
