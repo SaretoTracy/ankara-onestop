@@ -159,6 +159,7 @@ a {
 .footer {
     padding: 30px 40px;
     margin: auto;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .content__footer {
