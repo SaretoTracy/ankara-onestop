@@ -6,9 +6,6 @@
 .container {
     height: 100vh;
     width: 100%;
-    background-image: url(images/bcg.jpg);
-    background-position: center;
-    background-size: cover;
     padding-left: 5%;
     padding-right: 5%;
     box-sizing: border-box;
@@ -159,7 +156,7 @@ a {
     text-decoration: none;
 }
 
-.container {
+.footer {
     padding: 30px 40px;
     margin: auto;
 }
@@ -195,13 +192,13 @@ a {
 }
 
 .desc__area p {
-    color: #d558c8;
+    color: black;
     font-weight: 400;
     line-height: 30px;
 }
 
 .social__media a {
-    color: #d558c8;
+    color: #B82E11;
     margin-right: 22px;
     font-size: 24px;
 }
