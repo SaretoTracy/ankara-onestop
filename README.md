@@ -7,4 +7,4 @@ This is an informative website about Ankara0Onestop clothline. Its main purpose 
 * CSS.
 ## Author Info
 Tracy Chepkorir.
-.Email- tracychepkorir99@gmailcom
+* Email- tracychepkorir99@gmailcom
